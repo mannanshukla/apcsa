@@ -24,5 +24,11 @@ public class Book{
         public int getCurrentPage(){
             return currentPage;
         }
+
+        public void nextPage(){
+            if(currentPage < numPages){
+                currentPage++;
+            }
+        }
     }
 }
