@@ -11,7 +11,10 @@ public class StudentTest{
 
         student s1 = new student(); /*will call the empty constructor*/
         student s2 = new student("Jane", 11, 3.45, 20.00);
+        student s3 = new student("bob");
 
+        student s4 = new student();
+        system.out.println;
         //<objectname>.methodname();
         System.out.println(s2.getGrade());
         s2.moveUpAGrade();
