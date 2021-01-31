@@ -31,6 +31,7 @@ public class Cooney{
     
             if(!flag){
                 System.out.println("Cooney dislikes "+s+"\n");
+                count = 1;
             }
 
             
