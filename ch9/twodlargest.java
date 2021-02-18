@@ -4,7 +4,7 @@
  *Write a program that prints the value of the largest positive element in a 2-D array, or prints 0 if all elements are negative
  */
 
-public class 2dlargest {
+public class twodlargest {
 
     public static void main(String[] args){
 
@@ -32,7 +32,7 @@ public class 2dlargest {
     public static int largestval(int arr[][]){
 
         boolean allneg = true;
-        int maximum = array[0][0];
+        int maximum = arr[0][0];
 
         for(int counter = 0; counter < arr.length; counter++){
 
@@ -45,7 +45,7 @@ public class 2dlargest {
                 }
                 if(arr[counter][i] > maximum){
 
-                    maximum = array[counter][i];
+                    maximum = arr[counter][i];
 
                 }
 
