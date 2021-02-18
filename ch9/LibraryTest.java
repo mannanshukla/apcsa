@@ -18,15 +18,15 @@ public class LibraryTest {
 		l.add_Book(windupbird);
 		System.out.println(l);
 		
-		Book percy_jackson = new Book(1003, "The Lightning Thief", "Rick Riordian", 14.99, 416, 3);
-		l.add_Book(percy_jackson);
+		Book sputnik = new Book(1003, "sputnik, sweetheart", "haruki murakami", 14.99, 416, 3);
+		l.add_Book(sputnik);
 		System.out.println(l);
 		
-		Book farenheit_451 = new Book(1004, "Farentheit 451", "Ray Bradbury", 17.99, 158, 2);
-		l.add_Book(farenheit_451);
+		Book nineteeneightyfour = new Book(1004, "1984", "george orwell", 17.99, 158, 2);
+		l.add_Book(nineteeneightyfour);
 		System.out.println(l);
 		
-		Book animal_farm = new Book(1005, "Animal Farm", "George Orwell", 13.99, 112, 1);
+		Book animalfarm = new Book(1005, "Animal Farm", "george orwell", 13.99, 112, 1);
 		l.add_Book(animal_farm);
 		System.out.println(l);
 	}
